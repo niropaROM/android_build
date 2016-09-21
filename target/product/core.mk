@@ -22,7 +22,6 @@
 
 PRODUCT_PACKAGES += \
     BasicDreams \
-    Browser \
     Calendar \
     CalendarProvider \
     CaptivePortalLogin \
@@ -31,7 +30,6 @@ PRODUCT_PACKAGES += \
     DeskClock2 \
     DocumentsUI \
     DownloadProviderUi \
-    Email \
     ExactCalculator \
     Exchange2 \
     ExternalStorageProvider \
