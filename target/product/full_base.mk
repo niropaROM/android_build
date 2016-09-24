@@ -25,18 +25,10 @@ PRODUCT_PACKAGES := \
 
 ifneq ($(TARGET_EXCLUDE_LIVEWALLPAPERS), true)
 PRODUCT_PACKAGES += \
-    Galaxy4 \
-    HoloSpiralWallpaper \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    MagicSmokeWallpapers \
-    NoiseField \
-    PhaseBeam \
-    PhotoTable
+
 else
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
-    PhotoTable
 endif
 
 # Additional settings used in all AOSP builds
