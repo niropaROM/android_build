@@ -23,13 +23,6 @@ PRODUCT_PACKAGES := \
     libfwdlockengine \
     WAPPushManager
 
-ifneq ($(TARGET_EXCLUDE_LIVEWALLPAPERS), true)
-PRODUCT_PACKAGES += \
-
-else
-PRODUCT_PACKAGES += \
-    LiveWallpapersPicker \
-endif
 
 # Additional settings used in all AOSP builds
 PRODUCT_PROPERTY_OVERRIDES := \
